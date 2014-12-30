@@ -1,0 +1,39 @@
+{
+  "name": "hubot-steal",
+  "description": "Random animal stealing gif when hubot hears !steal",
+  "version": "0.0.1",
+  "author": "Cody Henshaw <cghensha@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hubot-steal"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brbcoding/hubot-steal"
+  },
+
+  "bugs": {
+    "url": "https://github.com/brbcoding/hubot-steal/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}

@@ -8,13 +8,13 @@
 #   None
 #
 # Commands:
-#   !steal
+#   hubot steal animal - post a random animal stealing gif
 #
 # Author:
 #   brbcoding
 #
 
-animalsStealingGifs = [ 
+animalsStealingGifs = [
     "http://i.imgur.com/56EMC0E.gif"
     "http://i.imgur.com/PU6GAu1.gif"
     "http://i.imgur.com/j5T3zmI.gif"
@@ -46,5 +46,5 @@ animalsStealingGifs = [
 
 module.exports = (robot) ->
 
-  robot.hear /!steal/i, (msg) ->
+  robot.respond /steal animal|animal steal/i, (msg) ->
     msg.reply msg.random animalsStealingGifs

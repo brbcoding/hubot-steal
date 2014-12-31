@@ -1,7 +1,7 @@
 {
   "name": "hubot-steal",
-  "description": "Random animal stealing gif when hubot hears !steal",
-  "version": "0.0.1",
+  "description": "Random animal stealing gif",
+  "version": "0.0.2",
   "author": "Cody Henshaw <cghensha@gmail.com>",
   "license": "MIT",
 
